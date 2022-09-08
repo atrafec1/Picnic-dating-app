@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1200579D2817349E00C60960 /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1200579C2817349E00C60960 /* SUImagePickerView.swift */; };
+		1200579F281734E100C60960 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1200579E281734E100C60960 /* ImageView.swift */; };
+		120057A22817A28900C60960 /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120057A12817A28900C60960 /* SwipeCard.swift */; };
+		120057A52819DCF300C60960 /* MatchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120057A42819DCF300C60960 /* MatchCard.swift */; };
+		120057A72819E31900C60960 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120057A62819E31900C60960 /* ConversationView.swift */; };
+		120057AC281C8D5100C60960 /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120057AB281C8D5100C60960 /* MessageList.swift */; };
+		124E418E2814B477001FE20D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 124E418D2814B477001FE20D /* FirebaseAuth */; };
+		124E41902814B477001FE20D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 124E418F2814B477001FE20D /* FirebaseFirestore */; };
+		124E41932814DA9E001FE20D /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 124E41922814DA9E001FE20D /* FirebaseAuthUI */; };
+		124E41952814DA9E001FE20D /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 124E41942814DA9E001FE20D /* FirebaseEmailAuthUI */; };
+		124E41972814DB37001FE20D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124E41962814DB37001FE20D /* GoogleService-Info.plist */; };
+		124E41992814DBB0001FE20D /* PicnicAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41982814DBB0001FE20D /* PicnicAppDelegate.swift */; };
+		124E419C2814DC45001FE20D /* PicnicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E419B2814DC45001FE20D /* PicnicAuth.swift */; };
+		124E419F2814DD7B001FE20D /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E419E2814DD7B001FE20D /* AuthenticationViewController.swift */; };
+		124E41A12814E0CB001FE20D /* PicnicTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41A02814E0CB001FE20D /* PicnicTabs.swift */; };
+		124E41A32814E119001FE20D /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41A22814E119001FE20D /* SwipeView.swift */; };
+		124E41A52814E124001FE20D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41A42814E124001FE20D /* MessageView.swift */; };
+		124E41A72814E137001FE20D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41A62814E137001FE20D /* SettingsView.swift */; };
+		124E41A92815D8E5001FE20D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41A82815D8E5001FE20D /* Login.swift */; };
+		124E41AB2815DB65001FE20D /* Startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41AA2815DB65001FE20D /* Startup.swift */; };
+		124E41AF2816004A001FE20D /* PicnicProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41AE2816004A001FE20D /* PicnicProfile.swift */; };
+		124E41B128160349001FE20D /* PicnicSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41B028160348001FE20D /* PicnicSurvey.swift */; };
+		124E41B3281603D8001FE20D /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E41B2281603D8001FE20D /* SurveyView.swift */; };
+		1277368B281216040057D25A /* PicnicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277368A281216040057D25A /* PicnicApp.swift */; };
+		1277368D281216040057D25A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277368C281216040057D25A /* ContentView.swift */; };
+		1277368F281216060057D25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1277368E281216060057D25A /* Assets.xcassets */; };
+		12773692281216060057D25A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12773691281216060057D25A /* Preview Assets.xcassets */; };
+		1277369C281216060057D25A /* PicnicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277369B281216060057D25A /* PicnicTests.swift */; };
+		127736A6281216060057D25A /* PicnicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127736A5281216060057D25A /* PicnicUITests.swift */; };
+		127736A8281216060057D25A /* PicnicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127736A7281216060057D25A /* PicnicUITestsLaunchTests.swift */; };
+		5D5B75DD281F89C800545BBB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5D5B75DC281F89C800545BBB /* FirebaseAuth */; };
+		5D5B75DF281F89C800545BBB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5D5B75DE281F89C800545BBB /* FirebaseFirestore */; };
+		5DEA82D72820735600F624AF /* ConversationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA82D62820735600F624AF /* ConversationCard.swift */; };
+		5DEA82DA282074DB00F624AF /* PickupLineAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA82D9282074DB00F624AF /* PickupLineAPI.swift */; };
+		5DEA82DC2820774100F624AF /* PickupLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA82DB2820774100F624AF /* PickupLine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12773698281216060057D25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1277367F281216040057D25A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12773686281216040057D25A;
+			remoteInfo = Picnic;
+		};
+		127736A2281216060057D25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1277367F281216040057D25A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12773686281216040057D25A;
+			remoteInfo = Picnic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1200579C2817349E00C60960 /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
+		1200579E281734E100C60960 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		120057A028174A9400C60960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		120057A12817A28900C60960 /* SwipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
+		120057A42819DCF300C60960 /* MatchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCard.swift; sourceTree = "<group>"; };
+		120057A62819E31900C60960 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		120057AB281C8D5100C60960 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+		124E41962814DB37001FE20D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		124E41982814DBB0001FE20D /* PicnicAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicAppDelegate.swift; sourceTree = "<group>"; };
+		124E419B2814DC45001FE20D /* PicnicAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicAuth.swift; sourceTree = "<group>"; };
+		124E419E2814DD7B001FE20D /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		124E41A02814E0CB001FE20D /* PicnicTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicTabs.swift; sourceTree = "<group>"; };
+		124E41A22814E119001FE20D /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		124E41A42814E124001FE20D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		124E41A62814E137001FE20D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		124E41A82815D8E5001FE20D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		124E41AA2815DB65001FE20D /* Startup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startup.swift; sourceTree = "<group>"; };
+		124E41AE2816004A001FE20D /* PicnicProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicProfile.swift; sourceTree = "<group>"; };
+		124E41B028160348001FE20D /* PicnicSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicSurvey.swift; sourceTree = "<group>"; };
+		124E41B2281603D8001FE20D /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		12773687281216040057D25A /* Picnic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picnic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1277368A281216040057D25A /* PicnicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicApp.swift; sourceTree = "<group>"; };
+		1277368C281216040057D25A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1277368E281216060057D25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12773691281216060057D25A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12773697281216060057D25A /* PicnicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicnicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1277369B281216060057D25A /* PicnicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicTests.swift; sourceTree = "<group>"; };
+		127736A1281216060057D25A /* PicnicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicnicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127736A5281216060057D25A /* PicnicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicUITests.swift; sourceTree = "<group>"; };
+		127736A7281216060057D25A /* PicnicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DEA82D62820735600F624AF /* ConversationCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationCard.swift; sourceTree = "<group>"; };
+		5DEA82D9282074DB00F624AF /* PickupLineAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupLineAPI.swift; sourceTree = "<group>"; };
+		5DEA82DB2820774100F624AF /* PickupLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupLine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12773684281216040057D25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124E41952814DA9E001FE20D /* FirebaseEmailAuthUI in Frameworks */,
+				5D5B75DD281F89C800545BBB /* FirebaseAuth in Frameworks */,
+				124E418E2814B477001FE20D /* FirebaseAuth in Frameworks */,
+				124E41932814DA9E001FE20D /* FirebaseAuthUI in Frameworks */,
+				124E41902814B477001FE20D /* FirebaseFirestore in Frameworks */,
+				5D5B75DF281F89C800545BBB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12773694281216060057D25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277369E281216060057D25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120057A32819DC7700C60960 /* Swipes */ = {
+			isa = PBXGroup;
+			children = (
+				124E41A22814E119001FE20D /* SwipeView.swift */,
+				120057A12817A28900C60960 /* SwipeCard.swift */,
+			);
+			path = Swipes;
+			sourceTree = "<group>";
+		};
+		120057A82819E5ED00C60960 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				124E41A42814E124001FE20D /* MessageView.swift */,
+				5DEA82D62820735600F624AF /* ConversationCard.swift */,
+				120057A62819E31900C60960 /* ConversationView.swift */,
+				120057AB281C8D5100C60960 /* MessageList.swift */,
+				120057A42819DCF300C60960 /* MatchCard.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		124E419A2814DC34001FE20D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				124E419B2814DC45001FE20D /* PicnicAuth.swift */,
+				124E41B028160348001FE20D /* PicnicSurvey.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		124E419D2814DD67001FE20D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				124E419E2814DD7B001FE20D /* AuthenticationViewController.swift */,
+				124E41A82815D8E5001FE20D /* Login.swift */,
+				124E41AA2815DB65001FE20D /* Startup.swift */,
+				124E41B2281603D8001FE20D /* SurveyView.swift */,
+				1200579C2817349E00C60960 /* SUImagePickerView.swift */,
+				1200579E281734E100C60960 /* ImageView.swift */,
+				124E41AC2815FFBD001FE20D /* TabViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		124E41AC2815FFBD001FE20D /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				124E41A02814E0CB001FE20D /* PicnicTabs.swift */,
+				120057A32819DC7700C60960 /* Swipes */,
+				120057A82819E5ED00C60960 /* Messages */,
+				124E41A62814E137001FE20D /* SettingsView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		124E41AD28160008001FE20D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				124E41AE2816004A001FE20D /* PicnicProfile.swift */,
+				5DEA82DB2820774100F624AF /* PickupLine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1277367E281216040057D25A = {
+			isa = PBXGroup;
+			children = (
+				124E41962814DB37001FE20D /* GoogleService-Info.plist */,
+				12773689281216040057D25A /* Picnic */,
+				1277369A281216060057D25A /* PicnicTests */,
+				127736A4281216060057D25A /* PicnicUITests */,
+				12773688281216040057D25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12773688281216040057D25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12773687281216040057D25A /* Picnic.app */,
+				12773697281216060057D25A /* PicnicTests.xctest */,
+				127736A1281216060057D25A /* PicnicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12773689281216040057D25A /* Picnic */ = {
+			isa = PBXGroup;
+			children = (
+				120057A028174A9400C60960 /* Info.plist */,
+				1277368A281216040057D25A /* PicnicApp.swift */,
+				124E41AD28160008001FE20D /* Models */,
+				124E419D2814DD67001FE20D /* Views */,
+				1277368C281216040057D25A /* ContentView.swift */,
+				1277368E281216060057D25A /* Assets.xcassets */,
+				5DEA82D82820747900F624AF /* API */,
+				124E419A2814DC34001FE20D /* Firebase */,
+				12773690281216060057D25A /* Preview Content */,
+				124E41982814DBB0001FE20D /* PicnicAppDelegate.swift */,
+			);
+			path = Picnic;
+			sourceTree = "<group>";
+		};
+		12773690281216060057D25A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12773691281216060057D25A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1277369A281216060057D25A /* PicnicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1277369B281216060057D25A /* PicnicTests.swift */,
+			);
+			path = PicnicTests;
+			sourceTree = "<group>";
+		};
+		127736A4281216060057D25A /* PicnicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				127736A5281216060057D25A /* PicnicUITests.swift */,
+				127736A7281216060057D25A /* PicnicUITestsLaunchTests.swift */,
+			);
+			path = PicnicUITests;
+			sourceTree = "<group>";
+		};
+		5DEA82D82820747900F624AF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5DEA82D9282074DB00F624AF /* PickupLineAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12773686281216040057D25A /* Picnic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127736AB281216060057D25A /* Build configuration list for PBXNativeTarget "Picnic" */;
+			buildPhases = (
+				12773683281216040057D25A /* Sources */,
+				12773684281216040057D25A /* Frameworks */,
+				12773685281216040057D25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picnic;
+			packageProductDependencies = (
+				124E418D2814B477001FE20D /* FirebaseAuth */,
+				124E418F2814B477001FE20D /* FirebaseFirestore */,
+				124E41922814DA9E001FE20D /* FirebaseAuthUI */,
+				124E41942814DA9E001FE20D /* FirebaseEmailAuthUI */,
+				5D5B75DC281F89C800545BBB /* FirebaseAuth */,
+				5D5B75DE281F89C800545BBB /* FirebaseFirestore */,
+			);
+			productName = Picnic;
+			productReference = 12773687281216040057D25A /* Picnic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12773696281216060057D25A /* PicnicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127736AE281216060057D25A /* Build configuration list for PBXNativeTarget "PicnicTests" */;
+			buildPhases = (
+				12773693281216060057D25A /* Sources */,
+				12773694281216060057D25A /* Frameworks */,
+				12773695281216060057D25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12773699281216060057D25A /* PBXTargetDependency */,
+			);
+			name = PicnicTests;
+			productName = PicnicTests;
+			productReference = 12773697281216060057D25A /* PicnicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		127736A0281216060057D25A /* PicnicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127736B1281216060057D25A /* Build configuration list for PBXNativeTarget "PicnicUITests" */;
+			buildPhases = (
+				1277369D281216060057D25A /* Sources */,
+				1277369E281216060057D25A /* Frameworks */,
+				1277369F281216060057D25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127736A3281216060057D25A /* PBXTargetDependency */,
+			);
+			name = PicnicUITests;
+			productName = PicnicUITests;
+			productReference = 127736A1281216060057D25A /* PicnicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1277367F281216040057D25A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					12773686281216040057D25A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					12773696281216060057D25A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 12773686281216040057D25A;
+					};
+					127736A0281216060057D25A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 12773686281216040057D25A;
+					};
+				};
+			};
+			buildConfigurationList = 12773682281216040057D25A /* Build configuration list for PBXProject "Picnic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1277367E281216040057D25A;
+			packageReferences = (
+				124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				124E41912814DA9E001FE20D /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+				5D5B75DB281F89C800545BBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 12773688281216040057D25A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12773686281216040057D25A /* Picnic */,
+				12773696281216060057D25A /* PicnicTests */,
+				127736A0281216060057D25A /* PicnicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12773685281216040057D25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12773692281216060057D25A /* Preview Assets.xcassets in Resources */,
+				124E41972814DB37001FE20D /* GoogleService-Info.plist in Resources */,
+				1277368F281216060057D25A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12773695281216060057D25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277369F281216060057D25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12773683281216040057D25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124E41B3281603D8001FE20D /* SurveyView.swift in Sources */,
+				1277368D281216040057D25A /* ContentView.swift in Sources */,
+				1200579D2817349E00C60960 /* SUImagePickerView.swift in Sources */,
+				124E41AB2815DB65001FE20D /* Startup.swift in Sources */,
+				5DEA82D72820735600F624AF /* ConversationCard.swift in Sources */,
+				120057AC281C8D5100C60960 /* MessageList.swift in Sources */,
+				5DEA82DC2820774100F624AF /* PickupLine.swift in Sources */,
+				120057A72819E31900C60960 /* ConversationView.swift in Sources */,
+				124E41A12814E0CB001FE20D /* PicnicTabs.swift in Sources */,
+				124E41B128160349001FE20D /* PicnicSurvey.swift in Sources */,
+				124E41992814DBB0001FE20D /* PicnicAppDelegate.swift in Sources */,
+				124E41A92815D8E5001FE20D /* Login.swift in Sources */,
+				1200579F281734E100C60960 /* ImageView.swift in Sources */,
+				124E41AF2816004A001FE20D /* PicnicProfile.swift in Sources */,
+				124E41A72814E137001FE20D /* SettingsView.swift in Sources */,
+				5DEA82DA282074DB00F624AF /* PickupLineAPI.swift in Sources */,
+				124E41A32814E119001FE20D /* SwipeView.swift in Sources */,
+				124E41A52814E124001FE20D /* MessageView.swift in Sources */,
+				124E419F2814DD7B001FE20D /* AuthenticationViewController.swift in Sources */,
+				1277368B281216040057D25A /* PicnicApp.swift in Sources */,
+				120057A22817A28900C60960 /* SwipeCard.swift in Sources */,
+				124E419C2814DC45001FE20D /* PicnicAuth.swift in Sources */,
+				120057A52819DCF300C60960 /* MatchCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12773693281216060057D25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277369C281216060057D25A /* PicnicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277369D281216060057D25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127736A8281216060057D25A /* PicnicUITestsLaunchTests.swift in Sources */,
+				127736A6281216060057D25A /* PicnicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12773699281216060057D25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12773686281216040057D25A /* Picnic */;
+			targetProxy = 12773698281216060057D25A /* PBXContainerItemProxy */;
+		};
+		127736A3281216060057D25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12773686281216040057D25A /* Picnic */;
+			targetProxy = 127736A2281216060057D25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127736A9281216060057D25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		127736AA281216060057D25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127736AC281216060057D25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Picnic/Preview Content\"";
+				DEVELOPMENT_TEAM = UURCAVCNBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Picnic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ham.Picnic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		127736AD281216060057D25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Picnic/Preview Content\"";
+				DEVELOPMENT_TEAM = YXRR5NHM3A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Picnic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ham.Picnic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		127736AF281216060057D25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXRR5NHM3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PicnicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picnic.app/Picnic";
+			};
+			name = Debug;
+		};
+		127736B0281216060057D25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXRR5NHM3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PicnicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picnic.app/Picnic";
+			};
+			name = Release;
+		};
+		127736B2281216060057D25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXRR5NHM3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PicnicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picnic;
+			};
+			name = Debug;
+		};
+		127736B3281216060057D25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXRR5NHM3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PicnicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picnic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12773682281216040057D25A /* Build configuration list for PBXProject "Picnic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127736A9281216060057D25A /* Debug */,
+				127736AA281216060057D25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127736AB281216060057D25A /* Build configuration list for PBXNativeTarget "Picnic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127736AC281216060057D25A /* Debug */,
+				127736AD281216060057D25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127736AE281216060057D25A /* Build configuration list for PBXNativeTarget "PicnicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127736AF281216060057D25A /* Debug */,
+				127736B0281216060057D25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127736B1281216060057D25A /* Build configuration list for PBXNativeTarget "PicnicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127736B2281216060057D25A /* Debug */,
+				127736B3281216060057D25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+		124E41912814DA9E001FE20D /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.1;
+			};
+		};
+		5D5B75DB281F89C800545BBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		124E418D2814B477001FE20D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		124E418F2814B477001FE20D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		124E41922814DA9E001FE20D /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E41912814DA9E001FE20D /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		124E41942814DA9E001FE20D /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E41912814DA9E001FE20D /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+		5D5B75DC281F89C800545BBB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5D5B75DE281F89C800545BBB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124E418C2814B477001FE20D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1277367F281216040057D25A /* Project object */;
+}
